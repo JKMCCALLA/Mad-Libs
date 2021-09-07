@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MadLibs</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>Mad Libs</h1>
+      <form>
+        <h3>Pick Your Words</h3>
+
+        <input type="text" 
+               placeholder="A counselor" 
+               id="counselor">
+               <input type="text" 
+               placeholder="A pronoun" 
+               id="pronoun">
+               <input type="text" 
+               placeholder="A television show" 
+               id="televisionshow">
+               <input type="text" 
+               placeholder="A reflection" 
+               id="reflections">
+               <input type="text" 
+               placeholder="A weird thought" 
+               id="weirdthought">
+               <input type="text" 
+               placeholder="A movie" 
+               id="movie">
+               <input type="text" 
+               placeholder="A fruit" 
+               id="fruit">
+               <input type="text" 
+               placeholder="A capital" 
+               id="capital">
+
+        <button type="button" 
+                onclick="generate()">Generate</button>
+      </form>
+      <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
